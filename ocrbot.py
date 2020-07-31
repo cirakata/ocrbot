@@ -23,7 +23,7 @@ def start(bot, update):
 
 def contact(bot, update):
     """Send a message when the command /contact is issued."""
-    update.message.reply_text("Heya! You can find me on \n[Telegram](https://telegram.me/decomposed)", parse_mode=ParseMode.MARKDOWN)
+    update.message.reply_text("Heya! You can find me on \n[Telegram](https://telegram.me/nitishjeet7)", parse_mode=ParseMode.MARKDOWN)
 
 def search(bot, update):
     """Send reply of user's message."""
